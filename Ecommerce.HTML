@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        .Parent{
+            display: flex;
+            margin: 20px;
+            flex-wrap: wrap;
+            padding:  20px;
+            
+        }
+
+        .product-container {
+            width:300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-right: 25px;
+            margin-left: 25px;
+            margin-bottom: 25px;
+            padding: 20px;
+            background-color: #fff; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            
+        }
+        
+        img {
+           /* max-width: 50%; */
+            height:200px;
+            width:200px;
+           /* border-radius: 8px; */
+            margin-bottom: 20px;
+        }
+        
+        .product-details {
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .description {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        .price {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .add-to-cart {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .add-to-cart:hover {
+            background-color: #2980b9;
+        }
+        
+        /* Simple Footer Styles */
+
+        .footer {
+           text-align: center;
+           padding: 20px;
+           background-color: #333;
+           color: #fff;
+}
+
+.site-header {
+
+    text-align: center;
+    margin:5px;
+    padding:5px;
+    background-color: #333;
+    color:#fff;
+
+}
+.site-header>h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.site-header>h2{
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+
+<!-- Header -->
+<header class="site-header">
+    
+        <h1>E-Commerce</h1><br>
+        <h2>Product Catalogue</h2>
+    
+</header>
+
+
+<!-- 
+<h1 style="text-align: center; font-size: 50px;  "> E-Commerce </h1>
+
+<h2 style="text-align: center; font-size:30px; " > Product Catalogue 
+</h2> -->
+<!-- <hr> -->
+    <div class="Parent">
+        <div class="product-container">
+            <img src="bag.jpg" alt="Product Image">
+            <div class="product-details">
+                <h1>Bag</h1>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget justo vel odio facilisis gravida.</p>
+                <p class="price"> &#8377 200</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-container">
+            <img src="purse.jpg" alt="Product Image">
+            <div class="product-details">
+                <h1>Card Holder</h1>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget justo vel odio facilisis gravida.</p>
+                <p class="price"> &#8377 100</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div> 
+
+        <div class="product-container">
+            <img src="Logitech mouse.jpg" alt="Product Image">
+            <div class="product-details">
+                <h1>Logitech Mouse</h1>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget justo vel odio facilisis gravida.</p>
+                <p class="price"> &#8377 300</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>  
+
+    
+    
+
+    
+        <div class="product-container">
+            <img src="kettle.jpg" alt="Product Image">
+            <div class="product-details">
+                <h1>Kettle</h1>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget justo vel odio facilisis gravida.</p>
+                <p class="price"> &#8377 500</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-container">
+            <img src="OTG cable.jpg" alt="Product Image">
+            <div class="product-details">
+                <h1>OTG cable</h1>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget justo vel odio facilisis gravida.</p>
+                <p class="price"> &#8377 350</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div> 
+
+        <div class="product-container">
+            <img src="Pocket Radar.jpg" alt="Product Image">
+            <div class="product-details">
+                <h1>Pocket Radar</h1>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget justo vel odio facilisis gravida.</p>
+                <p class="price"> &#8377 800</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>  
+
+    
+
+    
+        <div class="product-container">
+            <img src="Radar.jpg" alt="Product Image">
+            <div class="product-details">
+                <h1>Radar</h1>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget justo vel odio facilisis gravida.</p>
+                <p class="price"> &#8377 20000</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-container">
+            <img src="Microfiber Cloth.jpg" alt="Product Image">
+            <div class="product-details">
+                <h1>Microfiber Cloth</h1>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget justo vel odio facilisis gravida.</p>
+                <p class="price"> &#8377 250</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div> 
+
+        <div class="product-container">
+            <img src="Duracell AAAA.jpg" alt="Product Image">
+            <div class="product-details">
+                <h1>DuraCell AAAA</h1>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget justo vel odio facilisis gravida.</p>
+                <p class="price"> &#8377 199</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>  
+
+    
+
+    
+        <div class="product-container">
+            <img src="1001 INVENTIONS.jpg" alt="Product Image">
+            <div class="product-details">
+                <h1>1001 INVENTIONS AND AWESOME FACTS FROM MUSLIM CIVILIZATION</h1>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget justo vel odio facilisis gravida.</p>
+                <p class="price"> &#8377 1000</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-container">
+            <img src="Divine Reality.jpg" alt="Product Image">
+            <div class="product-details">
+                <h1>The Divine Reality: God, Islam and The Mirage of Atheism (Newly Revised Edition)</h1>
+                <p class="description">by Hamza Andreas Tzortzis (Author)</p>
+                <p class="price"> &#8377 850</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div> 
+
+        <div class="product-container">
+            <img src="Javascript.jpg" alt="Product Image">
+            <div class="product-details">
+                <h1>JAVASCRIPT THE DEFINITIVE GUIDE 7/ED Paperback </h1>
+                <p class="description">by David Flanagan (Author)</p>
+                <p class="price"> &#8377 2100</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>  
+
+    
+
+
+     
+        <div class="product-container">
+            <img src="amber magic.jpg" alt="Product Image">
+            <div class="product-details">
+                <h1>AMBER MAGIC EDP 100ML </h1>
+                <p class="description">AMBER MAGIC EDP 100ML Woody perfume for Men</p>
+                <p class="price"> &#8377 1000</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-container">
+            <img src="ajmal moshaa.jpg" alt="Product Image">
+            <div class="product-details">
+                <h1>Ajmal Mosha'a</h1>
+                <p class="description">Ajmal Mosha’a Eau De Perfume 50ML Long Lasting Scent Spray Perfume Gift For Men & Women - Made In Dubai</p>
+                <p class="price"> &#8377 850</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div> 
+
+        <div class="product-container">
+            <img src="oud musk.jpg" alt="Product Image">
+            <div class="product-details">
+                <h1>Oud Musk </h1>
+                <p class="description">Ajmal Oud Musk Eau De Perfumee 100ML Long Lasting Scent Spray Gift For Men</p>
+                <p class="price"> &#8377 2100</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>  
+
+    </div>
+
+
+
+<footer class="footer">
+    <p>&copy; 2024  E-Commerce. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
